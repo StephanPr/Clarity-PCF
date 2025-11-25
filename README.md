@@ -4,7 +4,7 @@ A lightweight Power Apps PCF component that integrates Microsoft Clarity session
 This control is designed to run invisibly, initialize Clarity automatically, respect consent, and send consistent metadata and events from your environment to Clarity.
 
 
-✨ Features
+## ✨ Features
 
 ✔ Fully automatic Clarity initialization using your Clarity Project ID
 
@@ -21,7 +21,7 @@ This control is designed to run invisibly, initialize Clarity automatically, res
 ✔ Debug logging mode to inspect behaviour at runtime
 
 
-🛠 How It Works
+## 🛠 How It Works
 
 The control uses the official Microsoft Clarity NPM package.
 
@@ -55,7 +55,7 @@ It listens for eventTriggerToken changes.
 The control stays hidden (display:none) and only runs script logic.
 
 
-📦 Installation
+## 📦 Installation
 Directly download the managed or unmanaged solutions avaliable and import them to your environment!
 
 If you want to make changes:
@@ -82,7 +82,7 @@ Import ClarityTrackerSolution.zip
 
 Publish all customizations
 
-🧩 Usage in Canvas Apps
+## 🧩 Usage in Canvas Apps
 
 You have to make shure your enviroment has code components enabled.
 Insert the PCF component onto every screen you want tracked.
@@ -126,7 +126,7 @@ eventDataJson
 
 Changing the token triggers a new event.
 
-🧩 Usage in Model-Driven Apps
+## 🧩 Usage in Model-Driven Apps
 
 This same PCF works inside Model-Driven forms.
 
@@ -143,7 +143,7 @@ screenName will default to the form’s URL unless you override it with somethin
 
 "CaseForm-Main"
 
-🧪 Debug Mode
+## 🧪 Debug Mode
 
 Set the debugLogging parameter to true to see internal logs:
 
@@ -154,12 +154,12 @@ Set the debugLogging parameter to true to see internal logs:
 
 This does not interfere with Clarity functionality.
 
-🤝 Contribution
+## 🤝 Contribution
 
 Pull requests are welcome!
 If you find bugs or have feature ideas, open an Issue.
 
-📄 License
+## 📄 License
 
 MIT License.
 Free to use in both commercial and personal solutions.
