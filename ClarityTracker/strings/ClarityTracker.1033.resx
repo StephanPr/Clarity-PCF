@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <!-- Control level -->
+  <data name="ClarityTracker" xml:space="preserve">
+    <value>SCN Clarity Tracker</value>
+  </data>
+  <data name="ClarityTracker description" xml:space="preserve">
+    <value>Invisible control that initializes Microsoft Clarity and sends optional metadata.</value>
+  </data>
+
+  <!-- Property display names -->
+  <data name="clarityProjectId_DisplayName" xml:space="preserve">
+    <value>Clarity Project Id</value>
+  </data>
+  <data name="trackingAllowed_DisplayName" xml:space="preserve">
+    <value>Tracking Allowed</value>
+  </data>
+  <data name="userId_DisplayName" xml:space="preserve">
+    <value>User Id</value>
+  </data>
+  <data name="userEmail_DisplayName" xml:space="preserve">
+    <value>User Email</value>
+  </data>
+  <data name="userName_DisplayName" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="sessionId_DisplayName" xml:space="preserve">
+    <value>Session Id</value>
+  </data>
+  <data name="screenName_DisplayName" xml:space="preserve">
+    <value>Screen Name</value>
+  </data>
+  <data name="appName_DisplayName" xml:space="preserve">
+    <value>App Name</value>
+  </data>
+  <data name="environment_DisplayName" xml:space="preserve">
+    <value>Environment</value>
+  </data>
+  <data name="eventName_DisplayName" xml:space="preserve">
+    <value>Event Name</value>
+  </data>
+  <data name="eventDataJson_DisplayName" xml:space="preserve">
+    <value>Event Data (JSON)</value>
+  </data>
+  <data name="eventTriggerToken_DisplayName" xml:space="preserve">
+    <value>Event Trigger Token</value>
+  </data>
+  <data name="sessionTagsJson_DisplayName" xml:space="preserve">
+    <value>Session Tags (JSON)</value>
+  </data>
+  <data name="disable_DisplayName" xml:space="preserve">
+    <value>Disable</value>
+  </data>
+  <data name="debugLogging_DisplayName" xml:space="preserve">
+    <value>Debug Logging</value>
+  </data>
+
+  <!-- Property descriptions -->
+  <data name="clarityProjectId_Description" xml:space="preserve">
+    <value>Required. Clarity project ID used to load the Clarity script.</value>
+  </data>
+  <data name="trackingAllowed_Description" xml:space="preserve">
+    <value>Optional privacy gate. When false, Clarity is not initialized. Defaults to true if not bound.</value>
+  </data>
+  <data name="userId_Description" xml:space="preserve">
+    <value>Optional. Defaults to the current user id in model-driven apps when available.</value>
+  </data>
+  <data name="userEmail_Description" xml:space="preserve">
+    <value>Optional. No automatic default in Canvas apps. Bind User().Email if you need it.</value>
+  </data>
+  <data name="userName_Description" xml:space="preserve">
+    <value>Optional. Defaults to current user name in model-driven apps when available.</value>
+  </data>
+  <data name="sessionId_Description" xml:space="preserve">
+    <value>Optional. Defaults to a generated GUID per browser tab. Bind Host.SessionId if you want app-level sessions.</value>
+  </data>
+  <data name="screenName_Description" xml:space="preserve">
+    <value>Optional. Defaults to URL path/hash. Only changes are tracked after initialization. Bind a variable updated on each screen to get Canvas screen names.</value>
+  </data>
+  <data name="appName_Description" xml:space="preserve">
+    <value>Optional. Defaults to a name derived from the URL. Bind App.Name for clarity.</value>
+  </data>
+  <data name="environment_Description" xml:space="preserve">
+    <value>Optional. Environment label such as DEV, TEST, PROD. If not set, a best-effort value is derived from the host name.</value>
+  </data>
+  <data name="eventName_Description" xml:space="preserve">
+    <value>Optional. Name of the Clarity custom event to send when Event Trigger Token changes.</value>
+  </data>
+  <data name="eventDataJson_Description" xml:space="preserve">
+    <value>Optional. JSON payload for the custom event. Leave empty for events without data.</value>
+  </data>
+  <data name="eventTriggerToken_Description" xml:space="preserve">
+    <value>Optional. When this numeric value changes, the control sends the current Event Name and Event Data (JSON) to Clarity as a custom event.</value>
+  </data>
+  <data name="sessionTagsJson_Description" xml:space="preserve">
+    <value>Optional. JSON object of session tags, e.g. { &quot;appType&quot;: &quot;Canvas&quot;, &quot;env&quot;: &quot;DEV&quot; }. Applied once per session.</value>
+  </data>
+  <data name="disable_Description" xml:space="preserve">
+    <value>Optional technical switch. When true, Clarity is not initialized. Defaults to false.</value>
+  </data>
+  <data name="debugLogging_Description" xml:space="preserve">
+    <value>Optional. When true, writes debug information to the browser console under [SCN.ClarityTracker]. Defaults to false.</value>
+  </data>
+</root>
